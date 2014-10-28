@@ -137,7 +137,7 @@ if ($_GET["mid"]==""){
 			    	
 			    	
 			    	
-			    	<div id="courpartner" class="animated">
+			    	<div id="courpartner" class="animated" style="display : none">
 			    	
 			    	<h2 class="subtitle">K&S STEEL PIPE CO.,LTD.</h2>
 			    	<div class="v1">
@@ -172,13 +172,13 @@ if ($_GET["mid"]==""){
 				    	<div class="v2">
 					    	<p><strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi</strong></p>
 					    	
-					    	<p>Innovative technology is the core of MSI. Due to our incessant commitment and efforts to world-level research and development, we are capable of providing innovative products for individuals and corporations. <br><br>Our clients also enjoy the high-quality solutions with economic synergies. We highly value the mutual relationship among the partner. </p>
+					    	<p>Innovative technology is the core of MSI. Due to our incessant commitment and efforts to world-level research and development, we are capable of providing innovative products for individuals and corporations. <br><br>Our clients also enjoy the high-quality solutions with economic synergies.</p>
 				    	<div id="partnerbox">
 				    		<ul>
-				    			<li><img src="images/tpp1.jpg"></li>
-				    			<li><img src="images/tpp2.jpg"></li>
-				    			<li><img src="images/tpp3.jpg"></li>
-				    			<li><img src="images/tpp4.jpg"></li>
+				    			<a class="group2" href="images/tpp1.jpg"><li><img src="images/tpp1.jpg"></li></a>
+				    			<a class="group2" href="images/tpp2.jpg"><li><img src="images/tpp2.jpg"></li></a>
+				    			<a class="group2" href="images/tpp3.jpg"><li><img src="images/tpp3.jpg"></li></a>
+				    			<a class="group2" href="images/tpp4.jpg"><li><img src="images/tpp4.jpg"></li></a>
 				    		</ul>
 				    	</div>
 				    	</div>
@@ -213,8 +213,47 @@ if ($_GET["mid"]==""){
     <script src="js/foundation.min.js"></script>
     <script src="js/easing.js"></script>
     <script src="js/main.js"></script>
+
+
+    <!-- color box -->
+    <link rel="stylesheet" href="css/colorbox.css" />
+    <script src="js/jquery.colorbox.js"></script>
     
-    
+    <script>
+			$(document).ready(function(){
+				//Examples of how to assign the Colorbox event to elements
+				$(".group1").colorbox({rel:'group1'});
+				$(".group2").colorbox({rel:'group2', transition:"fade"});
+				$(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
+				$(".group4").colorbox({rel:'group4', slideshow:true});
+				$(".ajax").colorbox();
+				$(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
+				$(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
+				$(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
+				$(".inline").colorbox({inline:true, width:"50%"});
+				$(".callbacks").colorbox({
+					onOpen:function(){ alert('onOpen: colorbox is about to open'); },
+					onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
+					onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
+					onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
+					onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
+				});
+
+				$('.non-retina').colorbox({rel:'group5', transition:'none'})
+				$('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
+				
+				//Example of preserving a JavaScript event for inline calls.
+				$("#click").click(function(){ 
+					$('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
+					return false;
+				});
+			});
+		</script>
+
+
+
+
+
     <!-- Skitter JS -->
 	<script type="text/javascript" language="javascript" src="js/jquery.skitter.min.js"></script>
 	<!-- Skitter Styles -->
