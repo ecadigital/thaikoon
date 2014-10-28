@@ -865,6 +865,25 @@ body{
 	background: #e4dcc3!important;
 	color: #2e1b22;
 }
+
+#partnerbox{
+	width: 590px;
+	float: left;
+	
+}
+
+#partnerbox ul{
+	margin: 0px;
+	padding: 0px;
+	}
+#partnerbox ul li{
+	width: 140px;
+	height: 146px;
+	list-style: none;
+	float: left;
+	margin-right: 7px;
+}
+
 /*@media all and (max-width: 1000px) and (min-width: 700px) {
 	#nav ul li a{
 	padding: 5px 8px;

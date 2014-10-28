@@ -139,7 +139,7 @@ if ($_GET["mid"]==""){
 			    	
 			    	<div id="courpartner" class="animated">
 			    	
-			    	<h2 class="subtitle">K&S</h2>
+			    	<h2 class="subtitle">K&S STEEL PIPE CO.,LTD.</h2>
 			    	<div class="v1">
 					    	
 				    <div class="vidbg">
@@ -159,7 +159,7 @@ if ($_GET["mid"]==""){
 				    	<div class="clearfix"></div>
 			    	
 
-			    	<h2 class="subtitle">K&S</h2>
+			    	<h2 class="subtitle">THAI PREMIUM PIPE CO.,LTD.</h2>
 			    	<div class="v1">
 					    	
 				    <div class="vidbg">
@@ -172,10 +172,13 @@ if ($_GET["mid"]==""){
 				    	<div class="v2">
 					    	<p><strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi</strong></p>
 					    	
-					    	<p>Innovative technology is the core of MSI. Due to our incessant commitment and efforts to world-level research and development, we are capable of providing innovative products for individuals and corporations. <br><br>Our clients also enjoy the high-quality solutions with economic synergies. We highly value the mutual relationship among the partner, clients and us over the long run, which also encourages us to continue </p>
+					    	<p>Innovative technology is the core of MSI. Due to our incessant commitment and efforts to world-level research and development, we are capable of providing innovative products for individuals and corporations. <br><br>Our clients also enjoy the high-quality solutions with economic synergies. We highly value the mutual relationship among the partner. </p>
 				    	<div id="partnerbox">
 				    		<ul>
-				    			<li><img src="images/tpp.jpg"></li>
+				    			<li><img src="images/tpp1.jpg"></li>
+				    			<li><img src="images/tpp2.jpg"></li>
+				    			<li><img src="images/tpp3.jpg"></li>
+				    			<li><img src="images/tpp4.jpg"></li>
 				    		</ul>
 				    	</div>
 				    	</div>
