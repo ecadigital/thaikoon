@@ -53,7 +53,7 @@
 		    </div>
 		    <!--phead-->
 		    
-		    <div id="cat-wrapper">
+		    <!--<div id="cat-wrapper">
 			    <ul>
                   <?
 					  
@@ -94,6 +94,52 @@
 			    </ul>
 		    </div>
 		    <!--cat-wrapper-->
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    <div id="cat-wrapper">
+			    <ul>
+				    <li>
+					    <a id="c1" class="start" href="category1.php">
+						    <img src="images/cat1.png">
+						    <span>Steel Pipes and Tubes</span>
+					    </a>
+				    </li>
+				    <li>
+					    <a id="c2" class="start" href="category1.php">
+						    <img src="images/cat2.png">
+						    <span>Oxide Primer<br>Coated Pipe</span>
+					    </a>
+				    </li>
+				    <li>
+					    <a id="c3" class="start" href="category1.php">
+						    <img src="images/cat3.png">
+						    <span>Customization</span>
+					    </a>
+				    </li>
+				    <li>
+					    <a id="c4" class="start" href="category1.php">
+						    <img src="images/cat1.png">
+						    <span>Steel Chain and <br>Painted Slotted Angles</span>
+					    </a>
+				    </li>
+			    </ul>
+		    </div>
+		    <!--cat-wrapper-->
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
+		    
 		    <div class="clearfix"></div>
 		    
 		    
