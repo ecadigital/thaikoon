@@ -139,11 +139,11 @@ if ($_GET["mid"]==""){
 			    	
 			    	<div id="courpartner" class="animated">
 			    	
-			    	<h2 class="subtitle">sadsads</h2>
+			    	<h2 class="subtitle">K&S</h2>
 			    	<div class="v1">
 					    	
 				    <div class="vidbg">
-					    <iframe width="560" height="315" src="//www.youtube.com/embed/6qjOs7ovYkM" frameborder="0" allowfullscreen></iframe>
+					    <img src="images/k&s.jpg">
 				    </div>
 				    <!--vidbg-->
 
@@ -158,11 +158,30 @@ if ($_GET["mid"]==""){
 				    	
 				    	<div class="clearfix"></div>
 			    	
-			    	<h2 class="subtitle">COMPANY HISTORY</h2>
-				    	<p>Starting literally from scratch with no capital, technology, or experience, President  Tang Buk Kung along with 30 employees established Tang  Kung Huat Company
-in 1975 as such a manufacturer and distributor for spring, steel desk and cabinet, steel chain and painted slotted angle</p>
 
-						<img src="images/about_03.gif">	
+			    	<h2 class="subtitle">K&S</h2>
+			    	<div class="v1">
+					    	
+				    <div class="vidbg">
+					    <img src="images/tpp.jpg">
+				    </div>
+				    <!--vidbg-->
+
+				    </div><!--v1-->
+				    	
+				    	<div class="v2">
+					    	<p><strong>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi</strong></p>
+					    	
+					    	<p>Innovative technology is the core of MSI. Due to our incessant commitment and efforts to world-level research and development, we are capable of providing innovative products for individuals and corporations. <br><br>Our clients also enjoy the high-quality solutions with economic synergies. We highly value the mutual relationship among the partner, clients and us over the long run, which also encourages us to continue </p>
+				    	<div id="partnerbox">
+				    		<ul>
+				    			<li><img src="images/tpp.jpg"></li>
+				    		</ul>
+				    	</div>
+				    	</div>
+				    	<!--v2-->
+				    	
+				    	<div class="clearfix"></div>
 			    	</div><!--animted-area-->
 			    	
 			    	
